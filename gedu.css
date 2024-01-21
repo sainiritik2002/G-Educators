@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+#nav{
+    height: 90px;
+    width: 100%;
+    background-color: #F7F8FC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+position: sticky;
+top: 0;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ z-index:999; ;
+}
+
+img{
+    height: 80px;
+    width: 150px;
+    margin-left: 120px;
+    margin-bottom: 1px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+#links{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+ gap: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+font-size: 18px;
+font-weight: 400;
+padding-right: 35px;
+
+
+}
+
+#btn{
+    display: flex;
+  padding-right: 157px;
+  gap: 10px;
+  
+}
+
+#btn1{
+    border: 1px solid #30323d ;
+    border-radius: 5px;
+    background-color: white;
+    height: 47px;
+    width: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;    
+}
+
+#btn1:hover{
+    cursor: pointer;
+}
+
+#btn2{
+    background-color:#30323e ;
+    height: 47px;
+    width: 150px;
+    border: #30323c;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+    display: flex;
+    
+}
+
+#hero-left{
+    width: 50%;
+    height: 100vh;
+    padding: 110px 10px 1px 121px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+   
+   
+   
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+    font-weight: 510;
+    font-size: 48px;
+    color:#363a45
+}
+span{
+    color:#6674cc ;
+}
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: #4a4f5c;
+    opacity: -50px;
+  font-size: 30px;
+}
+
+#btns{
+   display: flex;
+  justify-content: space-between;
+  padding-right: 33%;
+  gap: 16px;
+  
+}
+
+#btn3{
+    border: #30323c;
+    border-radius: 5px;
+    background-color:#303138 ;
+    font-family: 'Rubik', sans-serif;
+    height: 65px;
+    width: 200px;
+    font-size: 18px;
+    color: white;
+}
+#btn4{
+    border: 1px solid #30323d ;
+    border-radius: 5px;
+    background-color:white ;
+    height: 65px;
+    width: 200px;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+#hero-right{
+    width: 50%;
+    height: 100vh;
+   position: relative;
+   top: 0;
+   left: 0;
+}
+
+.char-bg{
+ width: 80%;
+ height: 100vh;
+ position: relative;
+ top: 0;
+ left: 45px;
+}
+
+.char-img{
+    width: 88%;
+    height: 78vh;
+    position: absolute;
+    top: 110px;
+    left: -150px;
+   
+}
+
+#followers{
+    width:100%;
+    height:240px;
+    background-color: rgb(41, 42, 48);
+    display: flex;  
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 68px 88px 98px 98px;
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;  
+    
+}
+
+
+
+
+
+.no{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: white;  
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.channel{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: white;  
+    font-size: 16px;
+    font-weight: 600;
+     
+}
+
+.click{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: underline;
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+
+hr{
+    background-color: white;
+    height: 110px;
+}
+
+.dot{
+    width: 150px;
+    height: 35px;
+    position: absolute;
+    top: 5px;
+    left: -98px;
+    opacity: 8%;
+}
+
+
+.circle{
+    width: 12%;
+    height: 65%;
+    position: absolute;
+    bottom: -17px;
+    left: -115px;
+}
+
+.dot-left{
+    width: 150px;
+    height: 35px;
+    position: absolute;
+    bottom: -10px;
+    right: 0px;
+    opacity: 8%;
+}
+
+.circle-left{
+    width: 12%;
+    height: 65%;
+    position: absolute;
+   top: 0px;
+    right: 0px;
+}
+
+#platform-info
+
+.heading-platform{
+    width: 100%;
+    height: 95vh; 
+    background-color: rgb(236, 226, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    font-weight: 600; 
+    color: #6F7CCF;
+    margin-top: 70px;
+}
+
+
+.platform-head {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 42px;
+    font-weight: 700; 
+    color: #011229;
+    margin-top: 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+.shock-img{
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top: -250px;
+    left: -630px;
+
+}
+.logo-img{
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: -360px;
+    right: -1px;
+}
+.shock-img1{
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    top: -250px;
+    right: -470px;
+}
+
+.footer{
+    background-color: #2d2a2ac7; /* Light gray background */
+    padding: 50px; /* Padding for top and bottom */
+  }
+  
+  .container {
+    max-width: 960px; /* Maximum width for responsiveness */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center content within the container */
+  }
+  
+  .row {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space elements evenly */
+    align-items: center; /* Align elements vertically */
+  }
+  
+  .col-md-4 {
+    flex: 0 0 33.333333%; /* Equal width for each column */
+    max-width: 33.333333%; /* Ensure responsiveness on smaller screens */
+  }
+  
+  h3 {
+    font-weight: 750; /* Bolder font weight for headings */
+    margin-bottom: 15px; /* Spacing below headings */
+  }
+  
+  a {
+    color: #1a283a; /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .copyright {
+    margin-top: 30px; /* Spacing above copyright text */
+    font-size: 15px; /* Smaller font size for copyright */
+    color: #f6e9e9;
+  }
+  

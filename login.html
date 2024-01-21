@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Page</title>
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+<div class="container">
+  <h1>Welcome!</h1>
+  <p>Please sign in to continue.</p>
+  <div id="g_id_onload" data-client_id="Email Id" data-login_uri="https://your-app.com/login_callback"></div>
+  <div class="or-divider">
+    <span class="or-text">OR</span>
+  </div>
+  <form action="/login" method="post">
+    <div class="form-group">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username">
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+    </div>
+    <button type="submit">Sign In</button>
+  </form>
+  <p class="signup-link">Don't have an account? <a href="signup.html">Sign up</a></p>
+</div>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+</body>
+</html>
